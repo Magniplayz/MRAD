@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/reg_nama"
+                android:padding="10dp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:hint="Nama Lengkap"
+                android:background="@drawable/edit_text_background"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/reg_email"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:background="@drawable/edit_text_background"
+                android:inputType="textEmailAddress"/>
+
+            <EditText
+                android:id="@+id/reg_phone"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:hint="Nomor Telepon"
+                android:background="@drawable/edit_text_background"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/reg_pass"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:background="@drawable/edit_text_background"
+                android:inputType="textPassword"/>
+
+            <Button
+                android:id="@+id/register_button"
+                android:layout_marginTop="20dp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="DAFTAR"
+                android:textColor="@color/colorAccent"
+                android:background="@drawable/button_background"/>
+
+            <TextView
+                android:id="@+id/to_login"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"
+                android:text="Sudah punya akun? Silahkan login"/>
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/register_loading"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:progressBackgroundTint="@color/colorPrimary"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

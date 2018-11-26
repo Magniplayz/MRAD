@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "623941383113",
+    "firebase_url": "https://mrad-2.firebaseio.com",
+    "project_id": "mrad-2",
+    "storage_bucket": "mrad-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623941383113:android:446211890a0cd2b3",
+        "android_client_info": {
+          "package_name": "com.example.ghifa.mrad2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623941383113-6gejqhgt26b5dtottp0l3rloqe5310pg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNFBiXLrzIuU8VmA754YUpHh_HBojDZEA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
